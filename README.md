@@ -1,4 +1,4 @@
-# Noceur's AWS SOA-C02 Study Repo
+# CMG's AWS SOA-C02 Study Repo
 
 # References (Must be logged in and have paid access to content)
 [ExamPro AWS SysOps Admin Associate](https://app.exampro.co/student/journey/soa-c02)
