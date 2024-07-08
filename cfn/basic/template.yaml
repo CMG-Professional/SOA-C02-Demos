@@ -4,7 +4,7 @@ Description: Json Example with sample bucket
 Parameters:
   BucketName:
     Type: String
-    Default: json-example-cfn-325252
+    Default: soa-c02-bucket-082107082024
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
