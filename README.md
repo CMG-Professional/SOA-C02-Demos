@@ -1,8 +1,8 @@
 # CMG's AWS SOA-C02 Study Repo
 
 # References (Must be logged in and have paid access to content)
-[ExamPro AWS SysOps Admin Associate](https://app.exampro.co/student/journey/soa-c02)
-[LearnCantrill AWS Certified SysOps Administrator - Associate](https://learn.cantrill.io/courses/enrolled/1032362)
+* [ExamPro AWS SysOps Admin Associate](https://app.exampro.co/student/journey/soa-c02)
+* [LearnCantrill AWS Certified SysOps Administrator - Associate](https://learn.cantrill.io/courses/enrolled/1032362)
 
 ## Agenda
 1. AWS API, CLI & CFN - Setup, STS, IAM Roles, CFN Template Generation & Stack Deployments
