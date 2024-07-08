@@ -14,16 +14,17 @@ tasks:
       npm install -g aws-cdk
       gp sync-done cdk-complete
   - name: iperf3
-    init: gp-sync-await tree-compelete
+    init: gp sync-await cdk-complete
     before: |
       sudo apt-get install -y iperf3
+      gp sync-done iperf-complete
   - name: tree 
-    init: gp-sync-await terraform-compelete
+    init: gp-sync-await iperf3-compelete
     before: |
       sudo apt install tree
       gp sync-done tree-complete
   - name: Terraform
-    init: gp sync-await cdk-complete
+    init: gp-sync-await tree-complete
     before: |
       cd /workspace
       sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
